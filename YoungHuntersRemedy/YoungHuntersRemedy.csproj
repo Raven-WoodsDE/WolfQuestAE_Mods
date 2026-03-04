@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Include the common build properties from the root Mods folder -->
+  <Import Project="..\Directory.Build.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>YoungHuntersRemedy</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+
+</Project>
